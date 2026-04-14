@@ -1,0 +1,10 @@
+services:
+  soundgrave:
+    build: .
+    restart: on-failure
+    ports:
+      - "1220:1220"
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./music:/app/music

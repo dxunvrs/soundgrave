@@ -28,13 +28,13 @@ docker compose up -d --build
 - Откройте VLC Media Player.  
 - Нажмите Ctrl + N (Открыть сеть).
 - Введите адрес для нужного плейлиста:
-http://localhost:1220/api/playlists/playlist1/playlist.m3u8
+http://localhost:1220/api/playlists/playlist1
 
 ## 📡 API Эндпоинты
 
 |Метод|Эндпоинт|Описание|
 |-|-|-|
-|GET|/api/playlists/{playlist-name}/playlist.m3u8|	Получить плейлист для VLC|
+|GET|/api/playlists/{playlist-name}|	Получить плейлист для VLC|
 |GET|/api/tracks/{track-id}/stream|Потоковая передача аудио (поддерживает Range)|
 
 ## 🏗 Технологический стек
